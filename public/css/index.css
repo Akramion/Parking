@@ -1,0 +1,185 @@
+/*GLOBAL*/
+
+.uk-open > .uk-modal-dialog{
+    border-radius: 8px;
+}
+
+body{
+    background: #98FE94;
+    font-family: 'Exo 2', sans-serif;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*INDEX*/
+
+.container{
+    width: 1250px;
+    margin: 0 auto;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parking{
+    width: 710px;
+    height: 900px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.info{
+    width: 345px;
+}
+
+.info__timer{
+    margin-bottom: 15px;
+    font-size: 72px;
+    height: 200px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.info__take{
+    margin-bottom: 50px;
+    height: 90px;
+    background: #6689CD;
+    border-radius: 8px;
+    font-size: 36px;
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    display: block;
+}
+
+.info__profile{
+    height: 544px;
+    background: #fff;
+    border-radius: 8px;
+    padding-top: 60px;
+    box-sizing: border-box;
+}
+
+.info__bg{
+    margin: 0 auto 40px auto;
+    border: 1px solid transparent;
+    padding: 15px 0 15px 0;
+    width: 92%;
+    background: #DAD6D6;
+    border-radius: 8px;
+}
+
+.info__profile img{
+    width: 60px;
+    height: 60px;
+}
+
+.info__name, .info__hours, .info__discount, .info__wallet{
+    padding: 0 30px;
+    font-size: 36px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.info__wallet{
+    margin-bottom: 0;
+}
+
+.info__param{
+    flex-grow: 3;
+    text-align: center;
+    line-height: 60px;
+}
+
+.info__buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Forms*/
+
+.form{
+    margin: 10vh auto;
+    padding-top: 25px;
+    max-width: 450px;
+    width: 450px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.form_bron{
+    margin: 0 auto;
+}
+
+.form_autho{
+    margin: 20vh auto;
+}
+
+.form__title{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.form__label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    display: block;
+}
+
+.form__input{
+    margin: 0 auto 20px auto;
+    text-align: left;
+    width: 300px;
+}
+
+.form input{
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background: #E5E5E5;
+
+    padding: 0 8px 0 8px;
+    font-size: 18px;
+}
+
+.form .form__button{
+    font-size: 18px;
+    color: #fff;
+    background: #547ED0;
+    margin: 0 auto 20px auto;
+    width: 210px;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form .form__button_registr{
+    width: 220px;
+}
+
+.form_autho__registr{
+    display: block;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #000;
+}
+
+.form__input_time{
+    font-size: 36px;
+}
+
+.form .form__input_time input{
+    width: 106px;
+    display: inline-block;
+}
